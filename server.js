@@ -155,7 +155,7 @@ function init() {
       } else if (data.mainMenu === 'Update Employee Role') {
         updateEmployeeRole()
       } else {
-
+        process.exit(1)
       }
     })
 };
