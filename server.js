@@ -230,7 +230,7 @@ function updateEmployeeRole() {
       promptUpdateRole[0].choices = employeeData;
       promptUpdateRole[1].choices = roleData;
       inquirer.prompt(promptUpdateRole).then(data => {
-        db.query('UPDATE employee SET role_id = ? WHERE id = ?', [data.updateEmployee, data.updateRole], (err) => {
+        db.query('UPDATE employee SET role_id = ? WHERE id = ?', [data.updateRole, data.updateEmployee], (err) => {
           if (err) throw err
           viewEmployees()
         })
