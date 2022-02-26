@@ -1,5 +1,7 @@
 # SWEmployeeManagementSystem
 
+https://youtu.be/DxZQxe5TOz0
+
 ## Description
 
  An app that utilizes MySql and inquirer to connect to a database and input data using user input. Using a command line interface, give an employer the ability to keep track of employees, roles, and departments within a company. The manager can view existing employees, roles, and departments; input new employees, roles, and departments; or update existing roles for employees. 
